@@ -2,7 +2,46 @@
 
 # Kaggle Insurance Premium
 
-This repository contains data and code for the Kaggle Insurance Premium competition.
+## Project Overview
+This project analyzes insurance premium data and builds predictive models to estimate insurance costs based on various factors.
+
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/Kaggle-Insurance-Premium.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Kaggle-Insurance-Premium
+    ```
+3. Create and activate a virtual environment (optional but recommended):
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+4. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+1. Prepare the dataset:
+    - Ensure you have the dataset in the correct format and place it in the `data` directory.
+2. Run the data preprocessing script:
+    ```bash
+    python preprocess.py
+    ```
+3. Train the model:
+    ```bash
+    python train.py
+    ```
+4. Evaluate the model:
+    ```bash
+    python evaluate.py
+    ```
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ## Data Files
 
