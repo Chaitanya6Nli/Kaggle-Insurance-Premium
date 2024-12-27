@@ -1,8 +1,16 @@
 # README.md
 
-# Kaggle Insurance Premium Prediction
+# Kaggle Insurance Premium
 
-This repository contains the code and resources for the Kaggle competition focused on predicting insurance premiums based on various factors. The goal of this project is to develop a model that accurately predicts the premium amounts for a given set of features.
+This repository contains data and code for the Kaggle Insurance Premium competition.
+
+## Data Files
+
+The following large CSV files are tracked using Git LFS. You can download them directly using the links below:
+
+- [sample_submission.csv](data/sample_submission.csv)
+- [test.csv](data/test.csv)
+- [train.csv](data/train.csv)
 
 ## Project Structure
 
